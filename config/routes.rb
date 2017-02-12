@@ -7,7 +7,7 @@ Rails.application.routes.draw do
  root 'welcome#index'
  
  post 'import', to: 'welcome#import'
- get  'import', to: 'welcome#import'
+ get  'import', to: 'welcome#index'
  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
