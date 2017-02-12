@@ -1,0 +1,40 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.myheader {
+  background-color: #ffeeff;
+  font-weight:bold;
+  padding:15px;
+  text-align:center;
+}
+
+.mytext {
+  text-align:center;
+  background-color: #dff0d8;
+  margin-top :2px;
+  padding:8px;
+} 
+
+.error1 {
+  background-color: #a94442 !important;
+  color: white;
+}
+
+
+.error2 {
+  background-color: #8a6d3b !important;
+  color: white;
+}
+
+
+.error3 {
+  background-color: #6b2aea !important;
+  color: white;
+}
+
+
+.alert-notice{
+  background-color:#00FFee;
+  
+}
+

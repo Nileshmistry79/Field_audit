@@ -1,0 +1,29 @@
+
+
+<div class="container">
+<center><h2>Audit Module</h2></center>	
+<%= form_tag(import_path, method: :post, class: 'form-horizontal',multipart: true)  do %>
+  <div class="form-group">
+  <%= file_field_tag :file,class: 'form-control' %>
+  </div>
+  <div class="form-group">
+  	<%= submit_tag("Import",class: "btn btn-primary btn-lg btn-center") %>
+  </div>
+<% end %>
+
+<hr/>
+	<ul>
+		<li> Input CSV File Format</li>
+			<ul>
+				<ol>Field 1 ==>Id</ol>
+				<ol>Field 2 ==>Start Time</ol>
+				<ol>Field 3 ==>End time</ol>
+				<ol>Field 4 ==>Telephone</ol>	
+			</ul>
+		<li> Check Record which started before 8 am </li>	
+		<li> Check Record which started After 11.30 am </li>
+		<li> Check Record which started Duplicate 8 am </li>
+	</ul>
+
+
+</div>
